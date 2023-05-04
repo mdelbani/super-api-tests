@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.010" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-04T22:15:18" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Users" timestamp="2023-05-04T22:15:18" tests="3" file="C:\Users\mdelb\Desktop\MochaNodeJs\super-api-tests\test\users.js" time="0.000" failures="0">
+    <testcase name="Users Get/Users" time="0.002" classname="Get/Users">
+    </testcase>
+    <testcase name="Users Put/Users" time="0.003" classname="Put/Users">
+    </testcase>
+    <testcase name="Users Delete/Users" time="0.001" classname="Delete/Users">
+    </testcase>
+  </testsuite>
+  <testsuite name="Get Users" timestamp="2023-05-04T22:15:18" tests="1" file="C:\Users\mdelb\Desktop\MochaNodeJs\super-api-tests\test\users.js" time="0.001" failures="0">
+    <testcase name="Users Get Users Get/Users/:id" time="0.001" classname="Get/Users/:id">
+    </testcase>
+  </testsuite>
+</testsuites>
