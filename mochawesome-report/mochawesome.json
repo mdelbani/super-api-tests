@@ -1,0 +1,178 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-04T21:09:20.369Z",
+    "end": "2023-05-04T21:09:20.390Z",
+    "duration": 21,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7aa10070-a580-4ae1-b747-ad40e7d628fa",
+      "title": "",
+      "fullFile": "C:\\Users\\mdelb\\Desktop\\MochaNodeJs\\super-api-tests\\test\\users.js",
+      "file": "\\test\\users.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b558d380-138d-4a0a-87fa-1585f29e6911",
+          "title": "Users",
+          "fullFile": "C:\\Users\\mdelb\\Desktop\\MochaNodeJs\\super-api-tests\\test\\users.js",
+          "file": "\\test\\users.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Get/Users",
+              "fullTitle": "Users Get/Users",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "request.get(\"users?access-token=\".concat(token)).then(function (res) {\n  (0, _chai.expect)(res.body).to.not.be.empty;\n});",
+              "err": {},
+              "uuid": "582c39c9-c634-43e3-a9e8-3bcab804b13f",
+              "parentUUID": "b558d380-138d-4a0a-87fa-1585f29e6911",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Put/Users",
+              "fullTitle": "Users Put/Users",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "8ea9c7bc-9399-4872-ae0b-ac4a7b72732d",
+              "parentUUID": "b558d380-138d-4a0a-87fa-1585f29e6911",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete/Users",
+              "fullTitle": "Users Delete/Users",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+              "err": {},
+              "uuid": "82553968-a2a6-40f8-8b84-c17fa40e24b9",
+              "parentUUID": "b558d380-138d-4a0a-87fa-1585f29e6911",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [
+            {
+              "uuid": "60fa50f1-2b1d-4cab-ab1f-92246e896847",
+              "title": "Get Users",
+              "fullFile": "C:\\Users\\mdelb\\Desktop\\MochaNodeJs\\super-api-tests\\test\\users.js",
+              "file": "\\test\\users.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Get/Users/:id",
+                  "fullTitle": "Users Get Users Get/Users/:id",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "var self = this,\n  args = arguments;\nreturn new Promise(function (resolve, reject) {\n  var gen = fn.apply(self, args);\n  function _next(value) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"next\", value);\n  }\n  function _throw(err) {\n    asyncGeneratorStep(gen, resolve, reject, _next, _throw, \"throw\", err);\n  }\n  _next(undefined);\n});",
+                  "err": {},
+                  "uuid": "caddb2c9-914f-403f-a57a-09e48bea2588",
+                  "parentUUID": "60fa50f1-2b1d-4cab-ab1f-92246e896847",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "caddb2c9-914f-403f-a57a-09e48bea2588"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 2,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [
+            "582c39c9-c634-43e3-a9e8-3bcab804b13f",
+            "8ea9c7bc-9399-4872-ae0b-ac4a7b72732d",
+            "82553968-a2a6-40f8-8b84-c17fa40e24b9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
